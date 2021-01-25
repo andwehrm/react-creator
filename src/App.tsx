@@ -13,17 +13,16 @@ const Route = require("react-router-dom").Route;
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-          <Router>
+        <Router>
             <Navbar/>
-                <Switch>
-                    <Route path='/' exact component={Home} />
-                    <Route path='/creator' exact component={Creator} />
-                    <Route path='/login' exact component={Login} />
-                    <Route path='/news' exact component={News} />
-                </Switch>
-          </Router>
-      </header>
+            <Switch>
+                <Route path='/' exact component={Home} />
+                <Route path='/creator' exact component={Creator} />
+                <Route path='/login' exact component={Login} />
+                <Route path='/news' exact component={News} />
+            </Switch>
+        </Router>
+
     </div>
   );
 }
