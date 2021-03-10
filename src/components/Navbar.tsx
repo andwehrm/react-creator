@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {Navitem} from "./Navitem";
-import '../fontawesome-free/css/all.min.css'
+import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css'
 import './Navbar.css'
 
 function Navbar()
